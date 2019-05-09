@@ -1,0 +1,20 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topnav ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+}
+
+#myaccount {
+    border-radius: 50%;
+}
+
+.topnav li {
+    float: right;
+}
