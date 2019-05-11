@@ -3,18 +3,48 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border-image-width: 0;
 }
 
-.topnav ul {
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 65px;
+
+}
+
+.navbar-right {
     list-style-type: none;
     position: relative;
     display: block;
+    overflow: hidden;
+    font-size: 13px;
 }
 
-#myaccount {
+.navbar-right li {
+    float: right;
+    margin: 10px 5px;
+    line-height: 13px;
+
+}
+
+li img {
+    display: block;
+}
+
+#myaccount-img {
     border-radius: 50%;
 }
 
-.topnav li {
-    float: right;
+#googleapps {
+
 }
+
+#googleimage, #gmail {
+    padding: 5px 0;
+}
+
