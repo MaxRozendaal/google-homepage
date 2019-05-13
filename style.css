@@ -14,12 +14,12 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: #727272;
+    color: rgba(0,0,0,0.87);
 }
 
 .navbar a:hover {
     text-decoration: underline;
-    color: black;
+    opacity: .85;
 }
 .navbar {
     height: 64px;
@@ -52,7 +52,6 @@ li img {
 #googleapps {
     margin: 20px 5px;
 }
-
 
 #googleapps-img {
     width: 24px;
@@ -181,7 +180,7 @@ li img {
 }
 
 .country p {
-    color: rgba(0,0,0,.54);
+    color: #5f6368;
     font-family: arial;
     font-size: 15px;
     line-height: 40px;
@@ -197,4 +196,28 @@ li img {
     bottom: 0;
     position: absolute;
     display: block;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer li {
+    display: block;
+    list-style-type: none;
+    font-size: small;
+    margin-top: 13px;
+    line-height: 13px;
+    padding-right: 27px;
+    float: left;
+}
+
+
+#ad {
+    margin-left: 30px;
 }
