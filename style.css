@@ -57,6 +57,11 @@ li img {
 #googleapps-img {
     width: 24px;
     height: 24px;
+    opacity: .55;
+}
+
+#googleapps-img:hover {
+    opacity: .85;
 }
 
 #googleimage, #gmail {
