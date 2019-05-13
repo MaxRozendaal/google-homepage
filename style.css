@@ -12,12 +12,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: #727272;
 }
 
-a:hover {
+.navbar a:hover {
     text-decoration: underline;
     color: black;
 }
@@ -75,6 +75,7 @@ li img {
     height: 92px;
     margin: 0 auto;
     margin-top: 8%;
+    margin-bottom: 20px;
 }
 
 .searchbar {
@@ -153,4 +154,19 @@ li img {
     background-color: #f8f8f8;
 }
 
+.frysk {
+    margin-top: 20px;
+}
+.frysk p {
+    font-size: small;
+    font-family: arial;
+}
+
+.frysk a {
+    text-decoration: none;
+}
+
+.frysk a:hover {
+    text-decoration: underline;
+}
 
