@@ -3,16 +3,29 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/favicon.png" />
     </head>
     
     <body>
         <div class="navbar">
             <ul class="navbar-right">
-                <li id="myaccount"><a href="#"><img src="img/photo.jpg" width="40" height="40" id="myaccount-img"></a></li>
-                <li id="googleapps"><a href="https://www.google.com/intl/en/options/" title="Google apps"><img class="apps" src="img/googapps.png" width="25" height="25"></a></li>
+                <li id="myaccount"><a href="#" title="Account"><img src="img/photo.jpg" id="myaccount-img"></a></li>
+                <li id="googleapps"><a href="https://www.google.com/intl/en/options/" title="Google apps"><img class="apps" src="img/googapps.png" id="googleapps-img"></a></li>
                 <li id="googleimage"><a href="https://www.google.com/imghp?hl=en&tab=wi">Afbeeldingen</a></li>
                 <li id="gmail"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
             </ul>
+        </div>
+        <div class="search">
+            <form>
+                <div class="searchbar">
+                    <input type="text" name="search" id="searchbar-input">
+                    <img src="img/googlemic_color_24dp.png" title="Gesproken zoekopdracht" id="micbutton">
+                </div>
+                <div class="searchbuttons">
+                    <input type="submit" name="google search" value="Google Search">
+                    <input type="submit" name="i'm feeling lucky" value="Ik doe een gok">
+                </div>
+            </form>
         </div>
     </body>
 </html>
