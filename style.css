@@ -214,10 +214,20 @@ li img {
     margin-top: 13px;
     line-height: 13px;
     padding-right: 27px;
+}
+
+.footer-left li {
     float: left;
 }
 
+.footer-right li {
+    float: right;
+}
 
 #ad {
     margin-left: 30px;
+}
+
+#settings {
+    padding-right: 30px;
 }
