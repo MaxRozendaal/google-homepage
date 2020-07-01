@@ -83,6 +83,7 @@ li img {
     margin: 10px auto;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    display: flex;
 }
 
 .searchbar:hover, .searchbar:focus {
@@ -90,12 +91,23 @@ li img {
     border-color: rgba(223,225,229,0);
 }
 
+.search-icon {
+    margin: auto;
+    margin-left: 12px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    fill: currentColor;
+    line-height: 24px;
+
+}
+
 .searchbar-input-container {
-    display: block;
     float: left;
     height: 48px;
     width: 504px;
 }
+
 #searchbar-input {
     height: 48px;
     width: 524px;
@@ -111,7 +123,6 @@ li img {
 }
 
 .micbutton-container {
-    display: block;
     float: right;
     height: 46px;
     width: 58px;
