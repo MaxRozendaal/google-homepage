@@ -3,15 +3,15 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="style.css" />
-        <link rel="icon" href="img/favicon.png" />
+        <link rel="icon" href="favicon.png" />
     </head>
     
     <body>
 
         <div class="navbar">
             <ul class="navbar-right">
-                <li id="myaccount"><a href="#" title="Account"><img src="img/photo.jpg" id="myaccount-img"></a></li>
-                <li id="googleapps"><a href="https://www.google.com/intl/en/options/" title="Google apps"><img class="apps" src="img/googapps.png" id="googleapps-img"></a></li>
+                <li id="myaccount"><a href="#" title="Account"><img src="photo.jpg" id="myaccount-img"></a></li>
+                <li id="googleapps"><a href="https://www.google.com/intl/en/options/" title="Google apps"><img class="apps" src="googapps.png" id="googleapps-img"></a></li>
                 <li id="googleimage"><a href="https://www.google.com/imghp?hl=en&tab=wi">Afbeeldingen</a></li>
                 <li id="gmail"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
                 <li id="advanced-search"><a href="advancedsearch.html">Advanced Search</a></li>
@@ -21,15 +21,15 @@
 
         <div class="google-logo">
             <div>
-                <img src="img/googlelogo_color_272x92dp.png" alt="">
+                <img src="googlelogo_color_272x92dp.png" alt="">
             </div>
             <div class="logo-subtext">
-                <span>Afbeeldingen</span>
+                <span>images</span>
             </div>
         </div>
 
         <div class="search">
-            <form action="https://www.google.com/search" id="search-form" method="GET">
+            <form action="https://www.google.com/search?tbm=isch" id="search-form" method="GET">
                 <div class="searchbar">
                     <div class="search-icon">
                         <svg focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
@@ -40,12 +40,12 @@
                         <input type="text" name="q" id="searchbar-input">
                     </div>
                     <div class="micbutton-container">
-                        <img src="img/googlemic_color_24dp.png" title="Gesproken zoekopdracht" id="micbutton">
+                        <img src="googlemic_color_24dp.png" title="Gesproken zoekopdracht" id="micbutton">
                     </div>
                 </div>
             </form>
                 <div class="searchbuttons">
-                    <button type="submit" form="search-form" name="tbm" value="isch">Google Image Search</button>
+                    <button type="submit" form="search-form" name="tbm" value="">Google Image Search</button>
                 </div>
         </div>
 
