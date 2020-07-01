@@ -63,7 +63,7 @@ li img {
     opacity: .85;
 }
 
-#googleimage, #gmail {
+#googleimage, #gmail, #image-search, #advanced-search, #search-homepage {
     margin: 25px 5px;
     line-height: 14px;
 }
@@ -75,6 +75,14 @@ li img {
     margin: 0 auto;
     margin-top: 8%;
     margin-bottom: 20px;
+}
+
+.logo-subtext {
+    color: #4285f4;
+    left: 126px;
+    position: relative;
+    top: -20px;
+    white-space: nowrap;
 }
 
 .searchbar {
